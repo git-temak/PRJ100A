@@ -2,6 +2,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.container {
+    text-align: center;
+}
+
 #calculator {
     width: 300px;
     border-collapse: collapse;
@@ -54,4 +58,8 @@ button:hover {
 td.equal-btn button {
     background-color: #F59734;
     box-shadow: -3px -4px #DF823B inset;
+}
+
+td.equal-btn button:hover {
+    background-color: #e88e2e;
 }

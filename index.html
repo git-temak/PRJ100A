@@ -7,9 +7,9 @@
     <link href="https://fonts.cdnfonts.com/css/calculator" rel="stylesheet">
 </head>
 <body>
-    <div>
+    <div class="container">
         <h1>PRJ100A - Calculator Project</h1>
-        <a href="">Repo</a>
+        <a href="https://github.com/git-temak/PRJ100A">Repo: https://github.com/git-temak/PRJ100A</a>
     </div>
     <table id="calculator">
         <thead>
@@ -19,27 +19,27 @@
         </thead>
         <tbody>
             <tr>
-                <td><button onclick="appendToOutput('7')">7</button></td>
-                <td><button onclick="appendToOutput('8')">8</button></td>
-                <td><button onclick="appendToOutput('9')">9</button></td>
-                <td><button onclick="performOperation('/')">÷</button></td>
+                <td><button onclick="processBtn('7')">7</button></td>
+                <td><button onclick="processBtn('8')">8</button></td>
+                <td><button onclick="processBtn('9')">9</button></td>
+                <td><button onclick="processBtn('/')">÷</button></td>
             </tr>
             <tr>
-                <td><button onclick="appendToOutput('4')">4</button></td>
-                <td><button onclick="appendToOutput('5')">5</button></td>
-                <td><button onclick="appendToOutput('6')">6</button></td>
-                <td><button onclick="performOperation('*')">x</button></td>
+                <td><button onclick="processBtn('4')">4</button></td>
+                <td><button onclick="processBtn('5')">5</button></td>
+                <td><button onclick="processBtn('6')">6</button></td>
+                <td><button onclick="processBtn('*')">x</button></td>
             </tr>
             <tr>
-                <td><button onclick="appendToOutput('1')">1</button></td>
-                <td><button onclick="appendToOutput('2')">2</button></td>
-                <td><button onclick="appendToOutput('3')">3</button></td>
-                <td><button onclick="performOperation('-')">-</button></td>
+                <td><button onclick="processBtn('1')">1</button></td>
+                <td><button onclick="processBtn('2')">2</button></td>
+                <td><button onclick="processBtn('3')">3</button></td>
+                <td><button onclick="processBtn('-')">-</button></td>
             </tr>
             <tr>
-                <td><button onclick="appendToOutput('0')">0</button></td>
-                <td><button onclick="appendToOutput('.')">.</button></td>
-                <td><button onclick="performOperation('+')">+</button></td>
+                <td><button onclick="processBtn('0')">0</button></td>
+                <td><button onclick="processBtn('.')">.</button></td>
+                <td><button onclick="processBtn('+')">+</button></td>
                 <td class="equal-btn"><button onclick="calculateResult()">=</button></td>
             </tr>
         </tbody>
